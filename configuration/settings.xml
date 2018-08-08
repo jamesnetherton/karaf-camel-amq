@@ -66,6 +66,19 @@
             <updatePolicy>never</updatePolicy>
           </releases>
         </repository>
+
+        <repository>
+          <id>jboss.ea</id>
+          <name>JBoss Early Access Repository</name>
+          <url>http://repository.jboss.org/nexus/content/groups/ea</url>
+          <snapshots>
+            <enabled>false</enabled>
+          </snapshots>
+          <releases>
+            <enabled>true</enabled>
+            <updatePolicy>never</updatePolicy>
+          </releases>
+        </repository>
  
       </repositories>
 
@@ -103,6 +116,19 @@
           <id>redhat.ea</id>
           <name>Red Hat Early Access Repository</name>
           <url>https://maven.repository.redhat.com/earlyaccess/all</url>
+          <snapshots>
+            <enabled>false</enabled>
+          </snapshots>
+          <releases>
+            <enabled>true</enabled>
+            <updatePolicy>never</updatePolicy>
+          </releases>
+        </pluginRepository>
+
+        <pluginRepository>
+          <id>jboss.ea</id>
+          <name>JBoss Early Access Repository</name>
+          <url>http://repository.jboss.org/nexus/content/groups/ea</url>
           <snapshots>
             <enabled>false</enabled>
           </snapshots>
